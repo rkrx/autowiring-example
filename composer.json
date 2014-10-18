@@ -1,0 +1,11 @@
+{
+    "require": {
+        "mnapoli/php-di": "~4.3",
+        "rkr/logger-essentials": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Di\\Test\\": "src/"
+        }
+    }
+}
