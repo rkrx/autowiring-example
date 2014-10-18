@@ -16,3 +16,4 @@ $test3 = new Test\Test3($logger);
 $test2 = new Test\Test2($test3);
 
 $test = new Test\Test($test1, $test2);
+$test->test(123, $logger);
