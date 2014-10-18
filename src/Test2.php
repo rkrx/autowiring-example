@@ -13,4 +13,10 @@ class Test2 {
 	public function __construct(Test3 $test3) {
 		$this->test3 = $test3;
 	}
+
+	/**
+	 */
+	public function someOtherAction() {
+		$this->test3->someMoreAction();
+	}
 }

@@ -28,6 +28,11 @@ class Test {
 	 * @param LoggerInterface $logger
 	 */
 	public function test($id, LoggerInterface $logger) {
-		$logger->info("ID: {$id}");
+		$logger->info("Start");
+
+		$this->test1->someAction();
+		$this->test2->someOtherAction();
+
+		$logger->info("End");
 	}
 }
