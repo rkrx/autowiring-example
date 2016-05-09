@@ -4,9 +4,7 @@ namespace Di\Test;
 use Psr\Log\LoggerInterface;
 
 class Test1 {
-	/**
-	 * @var LoggerInterface
-	 */
+	/** @var LoggerInterface */
 	private $logger;
 
 	/**
