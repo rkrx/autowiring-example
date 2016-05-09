@@ -2,9 +2,7 @@
 namespace Di\Test;
 
 class Test2 {
-	/**
-	 * @var Test3
-	 */
+	/** @var Test3 */
 	private $test3;
 
 	/**
