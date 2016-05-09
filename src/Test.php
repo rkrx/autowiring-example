@@ -4,14 +4,9 @@ namespace Di\Test;
 use Psr\Log\LoggerInterface;
 
 class Test {
-	/**
-	 * @var Test1
-	 */
+	/** @var Test1 */
 	private $test1;
-
-	/**
-	 * @var Test2
-	 */
+	/** @var Test2 */
 	private $test2;
 
 	/**
@@ -29,10 +24,8 @@ class Test {
 	 */
 	public function test($id, LoggerInterface $logger) {
 		$logger->info("Start");
-
 		$this->test1->someAction();
 		$this->test2->someOtherAction();
-
 		$logger->info("End");
 	}
 }
